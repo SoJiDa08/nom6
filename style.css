@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 100%;
+    height: 250vh;
+    background-color: bisque;
+    text-align: center;
+
+}
+.header{
+    width: 100%;
+    height: 250px;
+    background-image: url("./chef2.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center top;
+   
+    
+
+}
+.title{
+    font-family: cursive;
+    font-size: 28px;
+    padding-top: 50px;
+  
+
+}
+.text{
+    padding-top: 50px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: brown;
+    padding: 10px 20px;
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    
+
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color:white;
+    color:brown;
+    border: 1px solid brown;
+    font-size:16px ;
+    box-shadow: 0 0 20px 10px ;
+}
+.turlar{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: blue;
+    background-color: rgb(79, 252, 252);
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    transition: 0.4s;
+    
+
+}
+.turlar:hover{
+    transform: scale(1.1);
+    background-color:lightsalmon;
+    color:black;
+    border: 1px solid rgb(172, 66, 66);
+    font-size:16px ;
+    box-shadow: 0 0 20px 10px;
+}
+.div{
+    height: 10vh;
+    width: 100%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+   
+}
+.box{
+    
+    padding-top: 50px;
+    border: 5px solid yellow;
+    width: 375px;
+    height: 400px;
+    background-color:hotpink;
+    transition: 0.9s;
+}
+.box:hover{
+    background-color: coral;
+    transform: rotate(360deg);
+    border: 5px solid goldenrod;
+    
+
+}
+.taom{
+    padding-top: 20px;
+    border:1pa solid black ;
+    padding: 4px 12px;
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.taom:hover{
+    transform: scale(1.1);
+    background-color:black;
+    color:yellow;
+    border: 1px solid yellow;
+    font-size:16px ;
+    box-shadow: 0 0 20px 10px;
+}
+.title1{
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+.title1:hover{
+    background-color:fuchsia;
+    color: brown;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 10px;
+}
+.matn{
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: aqua;
+    transition: 0.4s;
+}
+.matn:hover{
+    background-color:deeppink;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 10px;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+}
+.ret{
+    margin-top: 50px;
+    padding:10px 20px;
+    border: 1px solid black;
+    color: black;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s;
+    
+}
+.ret:hover{
+    background-color: black;
+    color: yellow;
+    border-radius: 5px;
+    border: 1px solid black;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 10px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 30vh;
+    background-image: url("./footer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+input{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    border: 2px solid red;
+}
+.obuna{
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: 0.4s;
+
+}
+.obuna:hover{
+    background-color: black;
+    color: red;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 10px;
+}
